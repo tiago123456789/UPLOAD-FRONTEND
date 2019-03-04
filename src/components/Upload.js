@@ -26,7 +26,7 @@ export default class Upload extends Component {
     render() {
         return (
             <div className="content bg-white">
-                <DropZone accept="image/*" >
+                <DropZone accept="image/*" onDropAccepted={this.props.uploadFile} >
                     {({ getRootProps, getInputProps, isDragActive, isDragReject }) => {
                         return (
                             <div style={{ "width": "100%"}}
