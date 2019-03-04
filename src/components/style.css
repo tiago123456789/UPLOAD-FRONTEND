@@ -1,0 +1,57 @@
+
+.bg-white {
+    background: white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .09);
+}
+
+ul li img, ul li div {
+    display: inline-block;
+}
+
+ul li img {
+    position: relative;
+    left: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+ul li div {
+    margin-top: 10px;
+    float: right;
+}
+
+ul li div > * {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 7px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.btn-none {
+    background: white;
+    border: 1px solid white;
+}
+
+.btn-danger:hover {
+    box-shadow: 0.5px 0.5px 3px black;
+}
+
+

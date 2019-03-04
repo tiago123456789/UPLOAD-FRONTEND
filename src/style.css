@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+}
+
+.content {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 15px;
+}
